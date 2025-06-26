@@ -7,9 +7,11 @@ The design emphasizes clean layout, responsive sizing, and modern styling using 
 #How to Run This Project
 
 git clone https://github.com/your-username/html-css-profile-card.git
+
 cd html-css-profile-card
 
 OR 
+
 simply download the project zip and run the index.html file.
 
 #Planned Improvements
