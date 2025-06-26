@@ -22,7 +22,7 @@ cd html-css-profile-card
 ```
 
 Planned Improvements
-
+---
 🎨 UI Improvements
 
  Add soft shadows, gradients, and glassmorphism/neumorphism styles
@@ -34,7 +34,7 @@ Planned Improvements
  Animate elements on hover or page load using @keyframes or CSS transitions
 
  Make the card fully mobile-responsive
-
+---
 🧠 Add Technical Details Section
 
  Tech Stack Icons
