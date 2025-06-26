@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+
+.card {
+    width: 100%;
+    position: relative;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: aliceblue;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(160, 159, 159, 0.63);
+}
+
+.picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 3px;
+    display: block;
+    margin: 0 auto 1rem;
+    border: 4px solid rgb(4, 115, 194);
+    transition: all 0.3s ease-in-out;
+}
+
+.card .picture:hover {
+    border: 4px solid rgb(1, 77, 131);
+    ;
+    transform: scale(1.05);
+}
+
+.name {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.role {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(4, 115, 194);
+}
+
+.bio {
+    color: rgba(0, 0, 0, 0.529);
+    margin-bottom: 20px;
+    padding: 0 1rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: rgb(4, 115, 194);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .links:hover {
+    background: rgb(1, 77, 131);
+    transform: translateY(-3px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Mobile Design  */
+
+@media (max-width:480px){
+    .card{
+        padding: 1.5rem;
+    }
+               
+            .name {
+                font-size: 1.5rem;
+            }
+            
+            .bio {
+                padding: 0;
+            }
+            
+            .links {
+                gap: 1rem;
+            }
+        }
