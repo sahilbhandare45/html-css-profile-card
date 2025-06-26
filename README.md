@@ -20,27 +20,25 @@ The design emphasizes **clean layout, responsive sizing**, and **modern styling*
 git clone https://github.com/your-username/html-css-profile-card.git
 cd html-css-profile-card
 ```
-
-Planned Improvements
+---
+# Planned Improvements
 ---
 🎨 UI Improvements
-
- Add soft shadows, gradients, and glassmorphism/neumorphism styles
-
- Use Google Fonts for improved typography
-
- Include dark/light mode toggle
-
- Animate elements on hover or page load using @keyframes or CSS transitions
-
- Make the card fully mobile-responsive
 ---
+~ Add soft shadows, gradients, and glassmorphism/neumorphism styles
+
+~ Use Google Fonts for improved typography
+
+~ Include dark/light mode toggle
+
+~ Animate elements on hover or page load using @keyframes or CSS transitions
+
 🧠 Add Technical Details Section
+---
+ ~ Tech Stack Icons
 
- Tech Stack Icons
+ ~ Add icons/logos for HTML, CSS, JS, React, etc. using Font Awesome or SVGs
 
- Add icons/logos for HTML, CSS, JS, React, etc. using Font Awesome or SVGs
+ ~ Skill Meter
 
- Skill Meter
-
- Display skill levels using progress bars or circular meters
+ ~ Display skill levels using progress bars or circular meters
