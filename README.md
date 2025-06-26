@@ -1,28 +1,46 @@
-# html-css-profile-card
+# 💼 HTML-CSS Profile Card
 
-This project is a responsive profile card component built using HTML and CSS. It typically includes a profile image, name, job title, bio and social media links. It’s ideal for personal portfolios, developer resumes, or as a reusable component in larger UIs.
+This project is a **responsive profile card component** built using **HTML and CSS**. It typically includes:
 
-The design emphasizes clean layout, responsive sizing, and modern styling using Grid, hover effects, and minimalistic color schemes.
+- Profile image  
+- Name and job title  
+- Short bio  
+- Social media links  
 
-#How to Run This Project
+This card is ideal for personal portfolios, developer resumes, or as a reusable UI component in larger projects.
 
+The design emphasizes **clean layout, responsive sizing**, and **modern styling** using CSS Grid, hover effects, and a minimalistic color scheme.
+
+---
+
+## 🚀 How to Run This Project
+
+### 🔧 Option 1: Clone the Repository
+```bash
 git clone https://github.com/your-username/html-css-profile-card.git
-
 cd html-css-profile-card
+```
 
-OR 
+Planned Improvements
 
-simply download the project zip and run the index.html file.
+🎨 UI Improvements
 
-#Planned Improvements
+ Add soft shadows, gradients, and glassmorphism/neumorphism styles
 
-UI Improvements
-~ Add soft shadows, gradients, and glassmorphism or neumorphism styles.
-~ Use Google Fonts for better typography.
-~ Include dark/light mode toggle.
-~ Animate elements on hover or load (e.g., using @keyframes or transition effects).
-~ Make the card fully mobile-responsive.
+ Use Google Fonts for improved typography
 
-Add Technical Details Section
-~ Tech Stack Icons: Add icons/logos for HTML, CSS, JS, React, etc. using FontAwesome or SVGs.
-~ Skill Meter: Display skill levels using progress bars or circular meters.
+ Include dark/light mode toggle
+
+ Animate elements on hover or page load using @keyframes or CSS transitions
+
+ Make the card fully mobile-responsive
+
+🧠 Add Technical Details Section
+
+ Tech Stack Icons
+
+ Add icons/logos for HTML, CSS, JS, React, etc. using Font Awesome or SVGs
+
+ Skill Meter
+
+ Display skill levels using progress bars or circular meters
